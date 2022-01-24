@@ -5,16 +5,16 @@ import Header from "../../common/Header";
 
 export default () => (
   <Container>
-      <Header title="About the author" />
+      <Header title="O autorze" />
       <Section 
         title="Nikita Rysiev" 
         body={
           <p contentEditable>
             <p>you can edit the text below</p>
-            <p>Hej! My name a Nick, and I am a beginner Junior Front-End (React) Developer and 👶 Junior Manual Software Tester with introduction to automation.
-            My native language is Russian, but I learn and practice more English language, Polish and some German.</p> 
-            <p>Now I try to study software testing and some coding of simple web applications.</p>
-            <p>I want to know coding and speaking English very well to be useful in the labor market. 
+            <p>Cześć! Mam na imię Nikita i jestem początkującym Junior Front End Developerem i 👶 Junior Manual Software Testerem z wprowadzeniem do automatyzacji.
+            Moim ojczystym językiem jest rosyjski, ale uczę się i ćwiczę więcej języka angielskiego, polskiego i trochę niemieckiego.</p> 
+            <p>Teraz studiuję testowanie oprogramowania i kodowanie prostych aplikacji webowych.</p>
+            <p>Chcę dobrze umieć kodowanie i dobrze mówić po angielsku, aby być użytecznym na rynku pracy w IT. 
             </p>
           </p>
           } 

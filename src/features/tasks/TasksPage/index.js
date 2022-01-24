@@ -13,17 +13,17 @@ function TasksPage() {
   return (
     <Container>
       <Projects />
-      <Header title="ToDo list" />
+      <Header title="ToDo lista" />
       <Section 
-        title="Add new task" 
+        title="Dodaj nowe zadanie" 
         body={<Form />} 
         />
         <Section 
-        title="Search engine" 
+        title="Wyszukiwarka" 
         body={<Search />} 
         />
       <Section 
-        title="ToDo list"
+        title="ToDo lista"
         body={<TaskList />}
         extraHeaderContent={<Buttons />}
         />

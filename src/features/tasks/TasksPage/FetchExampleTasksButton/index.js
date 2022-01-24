@@ -11,8 +11,8 @@ export default () => {
     <Button disabled={loading} onClick={() => dispatch(fetchExampleTasks())}>
       {
         loading
-          ? "Loading..."
-          : "Download sample tasks"
+          ? "Pobieranie..."
+          : "Pobierz przykładowe zadania"
       }
     </Button>
   );

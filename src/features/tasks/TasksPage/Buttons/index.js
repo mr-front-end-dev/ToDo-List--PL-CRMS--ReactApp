@@ -25,18 +25,18 @@ const Buttons = () => {
       {/* _____________________________________________ */}
       <Button onClick={() => dispatch(fetchExampleTasks())}>
       {/* _____________________________________________ */}
-        Download sample tasks
+        Pobierz przykładowe zadania
       </Button>
       {!areTasksEmpty && (
         <>
           <Button onClick={() => dispatch(toggleHideDone())}>
-            {hideDone ? "Show" : "Hide"} completed tasks
+            {hideDone ? "Pokaż" : "Ukryj"} ukończone zadania
           </Button>
           <Button 
             onClick={() => dispatch(setAllDone())}
             disabled={isEveryTaskDone}
           >
-            Complete all tasks
+            Ukończ wszystkie zadania
           </Button>
         </>
       )}
