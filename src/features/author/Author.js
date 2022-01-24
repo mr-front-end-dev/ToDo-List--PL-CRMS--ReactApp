@@ -10,7 +10,7 @@ export default () => (
         title="Nikita Rysiev" 
         body={
           <p contentEditable>
-            <p>you can edit the text below</p>
+            <p>możesz edytować poniższy tekst</p>
             <p>Cześć! Mam na imię Nikita i jestem początkującym Junior Front End Developerem i 👶 Junior Manual Software Testerem z wprowadzeniem do automatyzacji.
             Moim ojczystym językiem jest rosyjski, ale uczę się i ćwiczę więcej języka angielskiego, polskiego i trochę niemieckiego.</p> 
             <p>Teraz studiuję testowanie oprogramowania i kodowanie prostych aplikacji webowych.</p>
